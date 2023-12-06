@@ -1,0 +1,14 @@
+img{
+	display: flex;
+	
+}
+
+
+@media screen and (max-width: 500px) {
+	/* Estilos para pantallas con ancho máximo de 400px */
+		div{
+			display: none;
+			
+		}
+
+	}

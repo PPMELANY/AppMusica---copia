@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas con ancho máximo de 600px */
+        ion-grid{
+            display: flex;
+            text-align: center;
+        }
+        nav{
+            flex: 1;
+            order: 2;
+        }
+        article{
+            width: 200px;
+            order: 1;
+        }
+    }
