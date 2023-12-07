@@ -1,15 +1,20 @@
-@media screen and (max-width: 768px) {
-    /* Estilos para pantallas con ancho máximo de 600px */
-        ion-grid{
-            display: flex;
-            text-align: center;
-        }
-        nav{
-            flex: 1;
-            order: 2;
-        }
-        article{
-            width: 200px;
-            order: 1;
-        }
-    }
+#main {
+    display: flex;
+    text-align: center;
+    width: 200px;
+  }
+
+  @media screen and (max-width: 500px) {
+	/* Estilos para pantallas con ancho máximo de 400px */
+    #main > article {
+        flex: 1;
+        order: 2;
+        
+      }
+      #main > nav {
+        width: 200px;
+        order: 1;
+      }
+      
+
+	}
